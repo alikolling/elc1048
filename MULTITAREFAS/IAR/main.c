@@ -64,8 +64,9 @@ void tarefa_1(void)
 	for(;;)
 	{
 		a++;
-		TarefaContinua(2);
-	
+                TarefaEspera(100);
+		//TarefaContinua(2);
+                
 	}
 }
 
@@ -75,8 +76,10 @@ void tarefa_2(void)
 	for(;;)
 	{
 		b++;
-		TarefaSuspende(2);
-                TarefaContinua(3);
+                TarefaEspera(100);
+		//TarefaSuspende(2);
+                //TarefaContinua(3);
+                
 	}
 }
 
@@ -84,9 +87,15 @@ void tarefa_3(void)
 {
 
         volatile uint16_t c = 100;
+        volatile int i, j = 0;
         for(;;)
         {
+                for(i = 0; i < 100000; i++){
+                  j++;
+                }
                 c--;
-                TarefaSuspende(3);
+                //TarefaSuspende(3);
+                TarefaEspera(100);
+                
         }
 }        

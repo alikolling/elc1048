@@ -5463,7 +5463,7 @@
     "display": "void tarefa_2(void)",
     "location": {
       "column": "6",
-      "line": "72",
+      "line": "73",
       "path": "C:\\Users\\alisson\\Documents\\GitHub\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "tarefa_2",
@@ -5471,13 +5471,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1575@F@tarefa_2@b",
+    "ID": "c:main.c@1628@F@tarefa_2@b",
     "What": "Variable",
     "defdec": "Def",
     "display": "b",
     "location": {
       "column": "20",
-      "line": "74",
+      "line": "75",
       "path": "C:\\Users\\alisson\\Documents\\GitHub\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "b",
@@ -5491,7 +5491,7 @@
     "display": "void tarefa_3(void)",
     "location": {
       "column": "6",
-      "line": "83",
+      "line": "86",
       "path": "C:\\Users\\alisson\\Documents\\GitHub\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "tarefa_3",
@@ -5499,16 +5499,44 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1724@F@tarefa_3@c",
+    "ID": "c:main.c@1835@F@tarefa_3@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "27",
-      "line": "86",
+      "line": "89",
       "path": "C:\\Users\\alisson\\Documents\\GitHub\\elc1048\\MULTITAREFAS\\IAR\\main.c"
     },
     "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1871@F@tarefa_3@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "22",
+      "line": "90",
+      "path": "C:\\Users\\alisson\\Documents\\GitHub\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1871@F@tarefa_3@j",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "j",
+    "location": {
+      "column": "25",
+      "line": "90",
+      "path": "C:\\Users\\alisson\\Documents\\GitHub\\elc1048\\MULTITAREFAS\\IAR\\main.c"
+    },
+    "name": "j",
     "origin": "project_file",
     "scope": null
   },

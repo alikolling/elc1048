@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>626904837</Checksum>
+        <Checksum>2838207179</Checksum>
     </DebugChecksum>
     <Disassembly>
         <MixedMode>1</MixedMode>
@@ -67,20 +67,13 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Bp0>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.86.27" 0 0 1 "" 0 ""</Bp0>
-        <Bp1>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.77.3" 0 0 1 "" 0 ""</Bp1>
-        <Bp2>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.66.3" 0 0 1 "" 0 ""</Bp2>
-        <Bp3>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.63.20" 0 0 1 "" 0 ""</Bp3>
-        <Bp4>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.51.2" 0 0 1 "" 0 ""</Bp4>
-        <Bp5>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.45.2" 0 0 1 "" 0 ""</Bp5>
-        <Bp6>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.42.9" 0 0 1 "" 0 ""</Bp6>
-        <Bp7>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.40.2" 0 0 1 "" 0 ""</Bp7>
-        <Bp8>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.38.2" 0 0 1 "" 0 ""</Bp8>
-        <Bp9>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.48.2" 0 0 1 "" 0 ""</Bp9>
-        <Bp10>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.79.17" 0 0 1 "" 0 ""</Bp10>
-        <Bp11>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.90.17" 0 0 1 "" 0 ""</Bp11>
-        <Bp12>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.67.3" 0 0 1 "" 0 ""</Bp12>
-        <Count>13</Count>
+        <Bp0>_ 0 "STD_CODE2" "0x566" 0 0 1 "" 0 ""</Bp0>
+        <Bp1>_ 0 "STD_CODE2" "0x56c" 0 0 1 "" 0 ""</Bp1>
+        <Bp2>_ 0 "STD_CODE2" "0x56e" 0 0 1 "" 0 ""</Bp2>
+        <Bp3>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.67.17" 0 0 1 "" 0 ""</Bp3>
+        <Bp4>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.98.17" 0 0 1 "" 0 ""</Bp4>
+        <Bp5>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.79.17" 0 0 1 "" 0 ""</Bp5>
+        <Count>6</Count>
     </Breakpoints2>
     <Interrupts>
         <Enabled>1</Enabled>
