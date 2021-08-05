@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>2714471683</Checksum>
+        <Checksum>363580692</Checksum>
     </DebugChecksum>
     <Disassembly>
         <MixedMode>1</MixedMode>
@@ -48,45 +48,6 @@
         <Fmt0>{W}42:0x2000021C	4	0</Fmt0>
         <Fmt1>{W}42:SP	4	0</Fmt1>
     </watch_formats>
-    <InterruptLog>
-        <GraphEnabled>0</GraphEnabled>
-        <LogEnabled>0</LogEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-        <SumEnabled>0</SumEnabled>
-        <ShowTimeSum>1</ShowTimeSum>
-        <SumSortOrder>0</SumSortOrder>
-    </InterruptLog>
-    <DataLog>
-        <GraphEnabled>0</GraphEnabled>
-        <LogEnabled>0</LogEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-        <SumEnabled>0</SumEnabled>
-        <ShowTimeSum>1</ShowTimeSum>
-    </DataLog>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints2>
-        <Bp0>_ 0 "STD_CODE2" "0x566" 0 0 1 "" 0 ""</Bp0>
-        <Bp1>_ 0 "STD_CODE2" "0x56c" 0 0 1 "" 0 ""</Bp1>
-        <Bp2>_ 0 "STD_CODE2" "0x56e" 0 0 1 "" 0 ""</Bp2>
-        <Bp3>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.67.17" 0 0 1 "" 0 ""</Bp3>
-        <Bp4>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.98.17" 0 0 1 "" 0 ""</Bp4>
-        <Bp5>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.79.17" 0 0 1 "" 0 ""</Bp5>
-        <Count>6</Count>
-    </Breakpoints2>
-    <Interrupts>
-        <Enabled>1</Enabled>
-        <Irq0>_ 0 49315 0 48000 1 0 0 100 0 1 "SysTick 1 0x3C"</Irq0>
-        <Count>1</Count>
-    </Interrupts>
-    <MemConfig>
-        <Base>1</Base>
-        <Manual>0</Manual>
-        <Ddf>0</Ddf>
-        <TypeViol>0</TypeViol>
-        <Stop>1</Stop>
-    </MemConfig>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -108,6 +69,56 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <InterruptLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <Title_0>buffe</Title_0>
+        <Symbol_0>0 4 1</Symbol_0>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "STD_CODE2" "0x566" 0 0 1 "" 0 ""</Bp0>
+        <Bp1>_ 0 "STD_CODE2" "0x56c" 0 0 1 "" 0 ""</Bp1>
+        <Bp2>_ 0 "STD_CODE2" "0x56e" 0 0 1 "" 0 ""</Bp2>
+        <Bp3>_ 1 "STD_DATA_LOG" "buffer[cheio.contador]" 0</Bp3>
+        <Bp4>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.86.9" 0 0 1 "" 0 ""</Bp4>
+        <Bp5>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.74.9" 0 0 1 "" 0 ""</Bp5>
+        <Bp6>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.75.9" 0 0 1 "" 0 ""</Bp6>
+        <Bp7>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.69.9" 0 0 1 "" 0 ""</Bp7>
+        <Bp8>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.70.9" 0 0 1 "" 0 ""</Bp8>
+        <Bp9>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.84.9" 0 0 1 "" 0 ""</Bp9>
+        <Bp10>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.88.9" 0 0 1 "" 0 ""</Bp10>
+        <Bp11>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.89.9" 0 0 1 "" 0 ""</Bp11>
+        <Bp12>_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.90.9" 0 0 1 "" 0 ""</Bp12>
+        <Bp13>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.72.9" 0 0 1 "" 0 ""</Bp13>
+        <Bp14>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.83.9" 0 0 1 "" 0 ""</Bp14>
+        <Count>15</Count>
+    </Breakpoints2>
+    <Interrupts>
+        <Enabled>1</Enabled>
+        <Irq0>_ 0 49315 0 48000 1 0 0 100 0 1 "SysTick 1 0x3C"</Irq0>
+        <Count>1</Count>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>0</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
