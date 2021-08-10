@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>363580692</Checksum>
+        <Checksum>2656629324</Checksum>
     </DebugChecksum>
     <Disassembly>
         <MixedMode>1</MixedMode>
@@ -48,27 +48,6 @@
         <Fmt0>{W}42:0x2000021C	4	0</Fmt0>
         <Fmt1>{W}42:SP	4	0</Fmt1>
     </watch_formats>
-    <DriverProfiling>
-        <Enabled>0</Enabled>
-        <Mode>1</Mode>
-        <Graph>0</Graph>
-        <Symbiont>0</Symbiont>
-    </DriverProfiling>
-    <CallStackLog>
-        <Enabled>0</Enabled>
-    </CallStackLog>
-    <CallStackStripe>
-        <ShowTiming>1</ShowTiming>
-    </CallStackStripe>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </LogFile>
     <InterruptLog>
         <GraphEnabled>0</GraphEnabled>
         <LogEnabled>0</LogEnabled>
@@ -93,19 +72,9 @@
         <Bp0>_ 0 "STD_CODE2" "0x566" 0 0 1 "" 0 ""</Bp0>
         <Bp1>_ 0 "STD_CODE2" "0x56c" 0 0 1 "" 0 ""</Bp1>
         <Bp2>_ 0 "STD_CODE2" "0x56e" 0 0 1 "" 0 ""</Bp2>
-        <Bp3>_ 1 "STD_DATA_LOG" "buffer[cheio.contador]" 0</Bp3>
-        <Bp4>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.86.9" 0 0 1 "" 0 ""</Bp4>
-        <Bp5>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.74.9" 0 0 1 "" 0 ""</Bp5>
-        <Bp6>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.75.9" 0 0 1 "" 0 ""</Bp6>
-        <Bp7>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.69.9" 0 0 1 "" 0 ""</Bp7>
-        <Bp8>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.70.9" 0 0 1 "" 0 ""</Bp8>
-        <Bp9>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.84.9" 0 0 1 "" 0 ""</Bp9>
-        <Bp10>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.88.9" 0 0 1 "" 0 ""</Bp10>
-        <Bp11>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.89.9" 0 0 1 "" 0 ""</Bp11>
-        <Bp12>_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.90.9" 0 0 1 "" 0 ""</Bp12>
-        <Bp13>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.72.9" 0 0 1 "" 0 ""</Bp13>
-        <Bp14>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.83.9" 0 0 1 "" 0 ""</Bp14>
-        <Count>15</Count>
+        <Bp3>_ 0 "STD_DATA_LOG" "buffer[cheio.contador]" 0</Bp3>
+        <Bp4>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.138.9" 0 0 1 "" 0 ""</Bp4>
+        <Count>5</Count>
     </Breakpoints2>
     <Interrupts>
         <Enabled>1</Enabled>
@@ -119,6 +88,27 @@
         <TypeViol>0</TypeViol>
         <Stop>1</Stop>
     </MemConfig>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
